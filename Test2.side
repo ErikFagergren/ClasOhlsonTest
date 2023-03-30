@@ -1,0 +1,162 @@
+{
+  "id": "e9bb1379-39db-4dfb-8f98-1338bf5274b7",
+  "version": "2.0",
+  "name": "Test2",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "0f0e38ce-10ff-432d-9445-e76e98c79125",
+    "name": "Test2",
+    "commands": [{
+      "id": "c2e6edc9-348d-4681-8515-d38cb20c94f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad366377-eea3-4b7b-8ce5-e546ddfdb2f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Erbjudanden",
+      "targets": [
+        ["linkText=Erbjudanden", "linkText"],
+        ["css=.right-nav-li-selected > .nav-right-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Erbjudanden')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"/*dataLayer.push({'event': 'interaction','eventCategory': 'Header Navigation','eventAction': 'Tab selection','eventLabel': 'Erbjudanden'});*/\"]", "xpath:attributes"],
+        ["xpath=//nav[@id='navigation']/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/c/product/onSale')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Erbjudanden')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "831975c9-3fda-459a-a13e-c054d12e20c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-3:nth-child(4) .lazyload",
+      "targets": [
+        ["css=.col-lg-3:nth-child(4) .lazyload", "css:finder"],
+        ["xpath=//img[@alt='Hopfällbart bord utomhus, 180 x 73 cm']", "xpath:img"],
+        ["xpath=//div[4]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2602c26-887a-4d77-956f-145735748504",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f2e5b4b-19b7-49fc-9f8b-86ff18985984",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmp_productdetails-ListAddToCartAction > .btn",
+      "targets": [
+        ["css=.cmp_productdetails-ListAddToCartAction > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lägg i varukorg (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de0d9977-5d07-4b68-b895-afd49164425d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.shopping-cart",
+      "targets": [
+        ["css=.shopping-cart", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7460b532-ddbc-4c44-9353-8659738da8f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopping-cart",
+      "targets": [
+        ["css=.shopping-cart", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "557cbd81-1b96-48e1-a19e-7ec3332c0ef5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.order__two:nth-child(1)",
+      "targets": [
+        ["css=.order__two:nth-child(1)", "css:finder"],
+        ["xpath=//td[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a2d25f1-b420-49ab-890d-7c0ee630c6e5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.checkout-shopping-cart--quantity:nth-child(1) > .minus-button",
+      "targets": [
+        ["css=.checkout-shopping-cart--quantity:nth-child(1) > .minus-button", "css:finder"],
+        ["xpath=//td[7]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58fb362a-918c-42d3-9bb8-9d8983c2a253",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hopfällbart bord utomhus, 180 x 73 cm",
+      "targets": [
+        ["linkText=Hopfällbart bord utomhus, 180 x 73 cm", "linkText"],
+        ["css=.product-tile__title:nth-child(1) > .product-tile__title--product-name", "css:finder"],
+        ["xpath=(//a[contains(text(),'Hopfällbart bord utomhus, 180 x 73 cm')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/Hopf&auml;llbart-bord-utomhus,-180-x-73-cm/p/31-8814')])[5]", "xpath:href"],
+        ["xpath=//td[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01f23e79-0e4d-44f0-b9e2-7d027c1c7690",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba138364-d82f-4c44-a1e4-271550eb4904",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__price-value",
+      "targets": [
+        ["css=.product__price-value", "css:finder"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'599,00')]", "xpath:innerText"]
+      ],
+      "value": "599,00"
+    }, {
+      "id": "89185a90-f241-420c-83f9-317f2974f6ab",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
+      ],
+      "value": "Hopfällbart bord utomhus, 180 x 73 cm"
+    }]
+  }],
+  "suites": [{
+    "id": "faeafa14-5d9c-4ca7-b600-9b0ac5cbac27",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0f0e38ce-10ff-432d-9445-e76e98c79125"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}
