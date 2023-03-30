@@ -1,0 +1,694 @@
+{
+  "id": "f5bda172-79c6-47b3-b5ae-1b3f8890f0bf",
+  "version": "2.0",
+  "name": "ClasOhlsonTest",
+  "url": "https://www.clasohlson.com/se/",
+  "tests": [{
+    "id": "9348df88-0bd4-4079-b862-220a0d3e3728",
+    "name": "Test1",
+    "commands": [{
+      "id": "a8ae4c51-2f9d-49b2-98df-d0173bd55e5d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0c6278f-79f4-4a6e-a3f9-89c251f0c6a8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//nav[3]/div/ul/li",
+      "targets": [
+        ["css=.show-sub", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44ecbdf5-4799-4ce7-adfa-5f21995c5f89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Förvaring",
+      "targets": [
+        ["linkText=Förvaring", "linkText"],
+        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Förvaring')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/Hem/Förvaring/c/1844')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Förvaring')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2bc3a92-03be-4582-8b44-ac1d32908d20",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Förvaring')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8f75076-7a54-412d-adde-7526ef83b00d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Förvaring')]", "xpath:innerText"]
+      ],
+      "value": "Förvaring"
+    }, {
+      "id": "0faa4529-b8e7-4ef7-b18a-07fa078622f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav__left > .yCmsComponent .icon",
+      "targets": [
+        ["css=.nav__left > .yCmsComponent .icon", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f80e04fe-4ee3-4247-95d7-7c54e5458033",
+    "name": "Test2",
+    "commands": [{
+      "id": "b35f582e-36a2-48ef-8b0d-6b2750e04e38",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbaf4448-5269-487a-b1cb-bc3c434c73d9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/no/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49bc2a7c-409d-48c4-be8b-61fee321c38c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//nav[3]/div/ul/li",
+      "targets": [
+        ["css=.show-sub", "css:finder"],
+        ["xpath=//nav[@id='navigation']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//nav[3]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ec25989-4d7b-47ea-9cfa-3f6dbc1c2aba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kontor",
+      "targets": [
+        ["linkText=Kontor", "linkText"],
+        ["css=.show-third-level > .js-nav-sub-category-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kontor')]", "xpath:link"],
+        ["xpath=//nav[@id='navigation']/div/ul/li/div/div/div/ul/li[7]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/no/Hjem/Kontor/c/1463')]", "xpath:href"],
+        ["xpath=//li[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kontor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b22dca3-758e-4eeb-9bc0-5bb7ff84a01d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.co-lista-mission:nth-child(8) img",
+      "targets": [
+        ["css=.co-lista-mission:nth-child(8) img", "css:finder"],
+        ["xpath=//img[@alt='Kalender']", "xpath:img"],
+        ["xpath=//li[8]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d40dbaa1-7602-4b9d-b556-a40c083b8e02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(3) img",
+      "targets": [
+        ["css=.col-md-6:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='Naga ukeplanlegger A4']", "xpath:img"],
+        ["xpath=//li[3]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62c73662-3e8a-4a89-82d2-90942b1f7c61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.choose-store",
+      "targets": [
+        ["css=.choose-store", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cc5799c-7578-4d76-bef8-5db0016610c0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.store-location-icon",
+      "targets": [
+        ["css=.store-location-icon", "css:finder"],
+        ["xpath=//button[@id='store-location-btn']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe8e1745-dcc1-4cdf-8f98-038a0fab53cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-store",
+      "targets": [
+        ["id=search-store", "id"],
+        ["css=#search-store", "css:finder"],
+        ["xpath=//input[@id='search-store']", "xpath:attributes"],
+        ["xpath=//div[@id='chooseStorePopup']/div/div/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cbf9e0d-4eec-4ea5-828e-6f92df39b78f",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-store",
+      "targets": [
+        ["id=search-store", "id"],
+        ["css=#search-store", "css:finder"],
+        ["xpath=//input[@id='search-store']", "xpath:attributes"],
+        ["xpath=//div[@id='chooseStorePopup']/div/div/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "Malmö"
+    }, {
+      "id": "95370e4e-1aad-40d9-a223-ad02f12c22aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-store-error",
+      "targets": [
+        ["css=.search-store-error", "css:finder"],
+        ["xpath=//div[@id='chooseStorePopup']/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f573846-92ba-4dce-abcc-298ca3d54d16",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.search-store-error",
+      "targets": [
+        ["css=.search-store-error", "css:finder"],
+        ["xpath=//div[@id='chooseStorePopup']/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "Fant ingen butikker"
+    }]
+  }, {
+    "id": "10e84ca5-194b-4e18-af25-de1925bf7fb4",
+    "name": "Test3",
+    "commands": [{
+      "id": "1eb62875-119c-4aab-9558-d15e75e63371",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a2f79c0-7052-4e12-bdf8-241933ab7569",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Erbjudanden",
+      "targets": [
+        ["linkText=Erbjudanden", "linkText"],
+        ["css=.right-nav-li-selected > .nav-right-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Erbjudanden')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"/*dataLayer.push({'event': 'interaction','eventCategory': 'Header Navigation','eventAction': 'Tab selection','eventLabel': 'Erbjudanden'});*/\"]", "xpath:attributes"],
+        ["xpath=//nav[@id='navigation']/div/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/c/product/onSale')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Erbjudanden')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab15216-a853-46c0-a534-f12f34ad5b7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-3:nth-child(4) .lazyload",
+      "targets": [
+        ["css=.col-lg-3:nth-child(4) .lazyload", "css:finder"],
+        ["xpath=//img[@alt='Hopfällbart bord utomhus, 180 x 73 cm']", "xpath:img"],
+        ["xpath=//div[4]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6f7915c-ee73-4ec3-bbf3-8e624d2e421f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cmp_productdetails-ListAddToCartAction > .btn",
+      "targets": [
+        ["css=.cmp_productdetails-ListAddToCartAction > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lägg i varukorg (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eecee936-8c50-4e9a-9b8d-3cbc5de6e0b8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gå till kassan",
+      "targets": [
+        ["linkText=Gå till kassan", "linkText"],
+        ["css=.apptusrelated__link--cta > .btn-primary", "css:finder"],
+        ["xpath=//div[@id='apptusrelated-component']/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/cocheckout')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gå till kassan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a057f5f1-f1b0-4002-9838-b522c560c831",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hopfällbart bord utomhus, 180 x 73 cm",
+      "targets": [
+        ["linkText=Hopfällbart bord utomhus, 180 x 73 cm", "linkText"],
+        ["css=.product-tile__title:nth-child(1) > .product-tile__title--product-name", "css:finder"],
+        ["xpath=(//a[contains(text(),'Hopfällbart bord utomhus, 180 x 73 cm')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/Hopf&auml;llbart-bord-utomhus,-180-x-73-cm/p/31-8814')])[5]", "xpath:href"],
+        ["xpath=//td[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e380390-9900-4cdb-a0ab-5daf3135fca2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "deb6eead-1bf7-4425-bd27-0fdb74142258",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ac8799c-6c69-408f-93c5-60338d6b5a49",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
+      ],
+      "value": "Hopfällbart bord utomhus, 180 x 73 cm"
+    }]
+  }, {
+    "id": "acb24f27-c79c-457e-a198-83e91e38c61e",
+    "name": "Test4",
+    "commands": [{
+      "id": "1cc2a20b-5a0e-4d09-8a41-f04003a6489c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79b2923c-3e7a-410e-89f3-642dffebb304",
+      "comment": "",
+      "command": "click",
+      "target": "css=.liOffcanvas:nth-child(1) .sign-in-wrapper",
+      "targets": [
+        ["css=.liOffcanvas:nth-child(1) .sign-in-wrapper", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f1f85fa-e406-4f0a-88c8-648af113e43c",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=j_username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dadb464-d175-4866-b524-8f4cee2178a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=j_username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "erik_fagergren@hotmail.com"
+    }, {
+      "id": "5319b69b-2689-4819-9e3b-7e009d3a1843",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["name=j_password", "name"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "ClubClas12"
+    }, {
+      "id": "cf457363-1ce7-4031-9a31-c3e2f3695e70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-login-reg-btn > .co-loginbutton > .btn",
+      "targets": [
+        ["css=.js-login-reg-btn > .co-loginbutton > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logga in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddd50d87-a4fd-4918-bf28-0b02d21c8432",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-login-reg-btn > .co-loginbutton > .btn",
+      "targets": [
+        ["css=.js-login-reg-btn > .co-loginbutton > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logga in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26b47e91-757d-49aa-ac51-73dfaa342f79",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-login-reg-btn > .co-loginbutton > .btn",
+      "targets": [
+        ["css=.js-login-reg-btn > .co-loginbutton > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logga in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "209746cd-41d3-4a9a-8653-c2baee7aed25",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mitt Club Clas",
+      "targets": [
+        ["linkText=Mitt Club Clas", "linkText"],
+        ["css=.clubclas", "css:finder"],
+        ["xpath=//a[contains(text(),'Mitt Club Clas')]", "xpath:link"],
+        ["xpath=//div[@id='loginregister-component']/div[6]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/my-account/myConsent')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mitt Club Clas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1beacff5-c97a-4c36-b147-09fcbd245740",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Information",
+      "targets": [
+        ["linkText=Information", "linkText"],
+        ["css=li:nth-child(1) > .mypages__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Information')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/my-account')])[3]", "xpath:href"],
+        ["xpath=//section/nav/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be08b96-bb7a-4880-a9be-dc7b6a22e9f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Information",
+      "targets": [
+        ["linkText=Information", "linkText"],
+        ["css=li:nth-child(1) > .mypages__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Information')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/se/my-account')])[3]", "xpath:href"],
+        ["xpath=//section/nav/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e81d787-a1fe-4222-bb91-e191a73db3f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.number > span",
+      "targets": [
+        ["css=.number > span", "css:finder"],
+        ["xpath=//form[@id='accountMembershipDetails']/section/div[2]/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'6361460102565449')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9eb0eda-57ec-47ab-8bb0-5f9abcf25ebb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.number > span",
+      "targets": [
+        ["css=.number > span", "css:finder"],
+        ["xpath=//form[@id='accountMembershipDetails']/section/div[2]/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'6361460102565449')]", "xpath:innerText"]
+      ],
+      "value": "6361460102565449"
+    }, {
+      "id": "ab7ae09d-fb3d-42bb-b3cc-89fa59e794aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.liOffcanvas:nth-child(2) .sign-in-text",
+      "targets": [
+        ["css=.liOffcanvas:nth-child(2) .sign-in-text", "css:finder"],
+        ["xpath=//li[2]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39af807c-4df6-472b-9cca-8e86c332ca13",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.liOffcanvas:nth-child(2) .sign-in-text",
+      "targets": [
+        ["css=.liOffcanvas:nth-child(2) .sign-in-text", "css:finder"],
+        ["xpath=//li[2]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f821e6e0-3917-466c-b445-946dbc66d396",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.liOffcanvas:nth-child(2) .sign-in-text",
+      "targets": [
+        ["css=.liOffcanvas:nth-child(2) .sign-in-text", "css:finder"],
+        ["xpath=//li[2]/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d5ed0d9-ac55-4892-a41a-aa27fbea6930",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logga ut",
+      "targets": [
+        ["linkText=Logga ut", "linkText"],
+        ["css=.co-signupbutton:nth-child(1) > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Logga ut')])[2]", "xpath:link"],
+        ["xpath=//div[@id='loginregister-component']/div[6]/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/logout?SiteView=B2C')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2849a48b-0498-49aa-bd71-33c051e9ead6",
+    "name": "Test5",
+    "commands": [{
+      "id": "a9fb6119-b586-4feb-84cd-ad5eb02a23ea",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce650568-f00e-452f-9018-da4a65fd2706",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#btn-banner img",
+      "targets": [
+        ["css=#btn-banner img", "css:finder"],
+        ["xpath=//img[@alt='Städa och diska']", "xpath:img"],
+        ["xpath=//section[@id='btn-banner']/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/section/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef506673-a4eb-49ae-bc85-2321f12b6cf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn-banner img",
+      "targets": [
+        ["css=#btn-banner img", "css:finder"],
+        ["xpath=//img[@alt='Städa och diska']", "xpath:img"],
+        ["xpath=//section[@id='btn-banner']/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[3]/section/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "788df6be-1be3-41f6-856e-3df4bb0a7c72",
+      "comment": "",
+      "command": "click",
+      "target": "css=#co-karusell-mission > .co-lista-mission:nth-child(1) img",
+      "targets": [
+        ["css=#co-karusell-mission > .co-lista-mission:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Dammsugare & tillbehör']", "xpath:img"],
+        ["xpath=//ul[@id='co-karusell-mission']/li/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8c8c0c8-8b83-4415-b654-86482875ce82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.price-range-block",
+      "targets": [
+        ["css=.price-range-block", "css:finder"],
+        ["xpath=//div[@id='baseprice']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bb0608d-4103-4339-b72d-a78b9ea4f32f",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "xpath=//div[@id='slider-range']/span[2]",
+      "targets": [
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//div[@id='slider-range']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": "6.28125,1.203125"
+    }, {
+      "id": "e70fd5eb-a0f9-41d8-990d-ededc545a125",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "xpath=//div[@id='slider-range']/span[2]",
+      "targets": [
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//div[@id='slider-range']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": "6.28125,1.203125"
+    }, {
+      "id": "344e3b68-b0a8-4af8-bf17-39b1a1a3add9",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "xpath=//div[@id='slider-range']/span[2]",
+      "targets": [
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//div[@id='slider-range']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": "6.28125,1.203125"
+    }, {
+      "id": "101a2d55-debc-4746-b85f-761e7d763efc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//input[2]",
+      "targets": [
+        ["id=max_price", "id"],
+        ["css=#max_price", "css:finder"],
+        ["xpath=//input[@id='max_price']", "xpath:attributes"],
+        ["xpath=//div[@id='baseprice']/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "768,84"
+    }, {
+      "id": "e44636dc-edf4-477f-96d7-f67317cb2ba8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3",
+      "targets": [
+        ["linkText=3", "linkText"],
+        ["css=#co-pagination > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'3')])[3]", "xpath:link"],
+        ["xpath=//ul[@id='co-pagination']/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[14]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd2d311e-844b-4570-8a74-1659a1ba16d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(3) .thumb",
+      "targets": [
+        ["css=.col-md-6:nth-child(3) .thumb", "css:finder"],
+        ["xpath=//a[contains(@href, '/se/Xiaomi-Mi-Mini,-handdammsugare-med-USB/p/44-4830')]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3c72061-af8c-4dda-b0b9-45158e4d97fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__price-value",
+      "targets": [
+        ["css=.product__price-value", "css:finder"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'479,00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42f237f9-bf3f-4baf-94b5-b426bdd37d62",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product__price-value",
+      "targets": [
+        ["css=.product__price-value", "css:finder"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'599,00')]", "xpath:innerText"]
+      ],
+      "value": "479,00"
+    }]
+  }],
+  "suites": [{
+    "id": "c9c81362-2b61-4ddb-aabd-bb10d5e8e0b5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9348df88-0bd4-4079-b862-220a0d3e3728"]
+  }],
+  "urls": ["https://www.clasohlson.com/se/"],
+  "plugins": []
+}
