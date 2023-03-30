@@ -14,6 +14,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "d8a1be62-2ded-41fa-ada9-4d89a9972092",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "5f98ecad-fefb-4604-a52e-c9621dd0faff",
       "comment": "",
       "command": "click",
