@@ -14,6 +14,13 @@
       "targets": [],
       "value": "https://www.clasohlson.com/se/"
     }, {
+      "id": "32bb6f22-624f-4670-a884-4a66676d053b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "80681550-e18c-4f9f-86fb-5b1bdc017498",
       "comment": "",
       "command": "mouseOver",
