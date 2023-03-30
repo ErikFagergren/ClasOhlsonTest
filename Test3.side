@@ -14,13 +14,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "cf17bee9-9b76-4278-9386-63f37cebff0f",
-      "comment": "",
-      "command": "open",
-      "target": "https://www.clasohlson.com/no/",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "8531ab75-54a1-41d8-93bf-bf83f1e2814c",
       "comment": "",
       "command": "click",
@@ -32,6 +25,13 @@
         ["xpath=//button", "xpath:position"],
         ["xpath=//button[contains(.,'Acceptera alla cookies')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "cf17bee9-9b76-4278-9386-63f37cebff0f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.clasohlson.com/no/",
+      "targets": [],
       "value": ""
     }, {
       "id": "94a4e678-9600-4ce1-99ef-8f1c1a54d339",
@@ -124,7 +124,7 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'Naga ukeplanlegger A4')]", "xpath:innerText"]
       ],
-      "value": "Naga ukeplanlegger A4"
+      "value": "Ukekalender 2022 / 2023 A6"
     }]
   }],
   "suites": [{

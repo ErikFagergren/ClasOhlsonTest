@@ -115,7 +115,7 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'Stapelbar skolåda med dörr, 4-pack')]", "xpath:innerText"]
       ],
-      "value": "Stapelbar skolåda med dörr, 4-pack"
+      "value": "Skohylla ställbar, metall"
     }, {
       "id": "7fdddc3b-b5f1-4041-aeed-5cd8d14a8508",
       "comment": "",

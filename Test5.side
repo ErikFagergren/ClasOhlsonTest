@@ -105,16 +105,13 @@
       ],
       "value": "Kritpennor Naga 2-pack"
     }, {
-      "id": "73281862-6bfe-47f8-9374-d94c35cde13c",
+      "id": "e4e4c38c-a512-4c0b-9744-6960d8a97f6c",
       "comment": "",
       "command": "click",
-      "target": "linkText=Ändra",
+      "target": "css=.choose-store",
       "targets": [
-        ["linkText=Ändra", "linkText"],
-        ["css=.change-store", "css:finder"],
-        ["xpath=//a[contains(text(),'Ändra')]", "xpath:link"],
-        ["xpath=//div[3]/span/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Ändra')]", "xpath:innerText"]
+        ["css=.choose-store", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
       ],
       "value": ""
     }, {
