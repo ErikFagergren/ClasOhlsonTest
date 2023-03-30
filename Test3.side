@@ -21,6 +21,19 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "8531ab75-54a1-41d8-93bf-bf83f1e2814c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-cookie-notification-accept",
+      "targets": [
+        ["css=.js-cookie-notification-accept", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='js-cookie-notification']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acceptera alla cookies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "94a4e678-9600-4ce1-99ef-8f1c1a54d339",
       "comment": "",
       "command": "mouseOver",
