@@ -14,7 +14,7 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "953b2329-f563-4bea-8fa4-f3fd2e4724d9",
+      "id": "6979c66a-5d7e-4175-b1ff-622696384d04",
       "comment": "",
       "command": "click",
       "target": "css=.js-cookie-notification-accept",
@@ -71,45 +71,31 @@
       ],
       "value": ""
     }, {
-      "id": "de0d9977-5d07-4b68-b895-afd49164425d",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.shopping-cart",
-      "targets": [
-        ["css=.shopping-cart", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "7460b532-ddbc-4c44-9353-8659738da8f1",
+      "id": "11ebeccd-e018-44c1-ae98-43fee7a2a175",
       "comment": "",
       "command": "click",
-      "target": "css=.shopping-cart",
+      "target": "css=.yCmsContentSlot:nth-child(1) .mini-cart-count",
       "targets": [
-        ["css=.shopping-cart", "css:finder"]
+        ["css=.yCmsContentSlot:nth-child(1) .mini-cart-count", "css:finder"],
+        ["xpath=//div/a/div/div", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "557cbd81-1b96-48e1-a19e-7ec3332c0ef5",
+      "id": "2b5887de-2b18-46a8-aaa8-e666f5d6e03c",
       "comment": "",
       "command": "click",
-      "target": "css=.order__two:nth-child(1)",
+      "target": "linkText=Gå till kassan",
       "targets": [
-        ["css=.order__two:nth-child(1)", "css:finder"],
-        ["xpath=//td[8]/div", "xpath:position"]
+        ["linkText=Gå till kassan", "linkText"],
+        ["css=.yCmsContentSlot:nth-child(1) #minicart-component .btn", "css:finder"],
+        ["xpath=//div[@id='minicart-component']/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/se/cocheckout')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gå till kassan')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "9a2d25f1-b420-49ab-890d-7c0ee630c6e5",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.checkout-shopping-cart--quantity:nth-child(1) > .minus-button",
-      "targets": [
-        ["css=.checkout-shopping-cart--quantity:nth-child(1) > .minus-button", "css:finder"],
-        ["xpath=//td[7]/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "58fb362a-918c-42d3-9bb8-9d8983c2a253",
+      "id": "a7b61219-5ed4-4b00-87b5-50eed9b73822",
       "comment": "",
       "command": "click",
       "target": "linkText=Hopfällbart bord utomhus, 180 x 73 cm",
@@ -117,34 +103,12 @@
         ["linkText=Hopfällbart bord utomhus, 180 x 73 cm", "linkText"],
         ["css=.product-tile__title:nth-child(1) > .product-tile__title--product-name", "css:finder"],
         ["xpath=(//a[contains(text(),'Hopfällbart bord utomhus, 180 x 73 cm')])[2]", "xpath:link"],
-        ["xpath=(//a[contains(@href, '/se/Hopf&auml;llbart-bord-utomhus,-180-x-73-cm/p/31-8814')])[5]", "xpath:href"],
+        ["xpath=(//a[contains(@href, '/se/Hopf&auml;llbart-bord-utomhus,-180-x-73-cm/p/31-8814')])[4]", "xpath:href"],
         ["xpath=//td[2]/div/a", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "01f23e79-0e4d-44f0-b9e2-7d027c1c7690",
-      "comment": "",
-      "command": "click",
-      "target": "css=.product__title > .title-two",
-      "targets": [
-        ["css=.product__title > .title-two", "css:finder"],
-        ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "ba138364-d82f-4c44-a1e4-271550eb4904",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.product__price-value",
-      "targets": [
-        ["css=.product__price-value", "css:finder"],
-        ["xpath=//div[2]/div/div/span", "xpath:position"],
-        ["xpath=//span[contains(.,'599,00')]", "xpath:innerText"]
-      ],
-      "value": "599,00"
-    }, {
-      "id": "89185a90-f241-420c-83f9-317f2974f6ab",
+      "id": "07c024b2-d13c-4395-8219-5ea123dfde22",
       "comment": "",
       "command": "assertText",
       "target": "css=.product__title > .title-two",
@@ -154,6 +118,39 @@
         ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
       ],
       "value": "Hopfällbart bord utomhus, 180 x 73 cm"
+    }, {
+      "id": "acebfa47-ad0e-40f1-a341-6cdb3ce05cf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__title > .title-two",
+      "targets": [
+        ["css=.product__title > .title-two", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Hopfällbart bord utomhus, 180 x 73 cm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "667d314a-7c77-4bcc-807f-a36696d9a5ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product__price-value",
+      "targets": [
+        ["css=.product__price-value", "css:finder"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'599,00')]", "xpath:innerText"]
+      ],
+      "value": "599,00"
+    }, {
+      "id": "409c21e0-9b81-40bc-865d-659b1ff453f4",
+      "comment": "",
+      "command": "assertNotText",
+      "target": "css=.product__price-value",
+      "targets": [
+        ["css=.product__price-value", "css:finder"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'599,00')]", "xpath:innerText"]
+      ],
+      "value": ""
     }]
   }],
   "suites": [{
