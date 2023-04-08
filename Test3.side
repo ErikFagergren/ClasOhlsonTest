@@ -122,9 +122,9 @@
       "targets": [
         ["css=.product__title > .title-two", "css:finder"],
         ["xpath=//h1", "xpath:position"],
-        ["xpath=//h1[contains(.,'Naga ukeplanlegger A4')]", "xpath:innerText"]
+        ["xpath=//h1[contains(.,'Ukekalender 2022 / 2023 A6')]", "xpath:innerText"]
       ],
-      "value": "Naga ukeplanlegger A4"
+      "value": "Ukekalender 2022 / 2023 A6"
     }]
   }],
   "suites": [{
